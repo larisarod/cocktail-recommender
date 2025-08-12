@@ -1,13 +1,13 @@
 # Welcome to Cocktail Recommender! 
 
-Cocktail Recommender is an NLP model created to ease the difficulty of settling on a drink choice from a plethora of options, in order to optimize satisfaction. 
+Cocktail Recommender is an NLP model created to ease the difficulty of settling on a drink choice from a plethora of options. The goal is to optimize satisfaction and enhance the consumption experience.  
 The system uses **Word2Vec** to understand relationships between ingredients and suggest drinks with similar flavor profiles.
 
 ## Features
 - Load and process cocktail recipes from a CSV file.
 - Tokenize and vectorize ingredients using **gensim Word2Vec**.
-- Recommend top cocktails based on similarity to user-provided ingredients.
-- Multiple recommendation approaches (pairwise similarity, cosine similarity).
+- Recommend top cocktails based on similarity to user-provided ingredients. ( call recommend_by_ingredient function)
+- Recommend top cocktails based on flavor profiles. (call recommend_by_flavor function)
 - Customizable number of recommendations.
 
 ## Installation
