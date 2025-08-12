@@ -20,6 +20,8 @@ cd cocktail-recommender
 pip install pandas gensim scikit-learn #install dependencies
 
 python copy_of_final_project.py
+```
+2. **EXAMPLE USAGE**
 
 EXAMPLE INPUT:
 user_ingredients = ['Gin', 'Lime Juice']
